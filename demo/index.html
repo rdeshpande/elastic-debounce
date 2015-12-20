@@ -1,0 +1,21 @@
+<html>
+  <body>
+    <script src="../elastic-debounce.js"></script>
+
+    <h1>Elastic Debounce Prototype</h1>
+    <ol>
+      <li>Open the JavaScript Console</li>
+      <li>Resize the browser window</li>
+    </ol>
+
+    <script type="text/javascript">
+      function sampleXhrFactory() {
+        var req = new XMLHttpRequest();
+        req.open("GET", "http://localhost:3000");
+        return req;
+      };
+
+      window.addEventListener('resize', ED.debounce(sampleXhrFactory));
+    </script>
+  </body>
+</html>

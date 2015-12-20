@@ -1,0 +1,23 @@
+{
+  "name": "elastic-debounce",
+  "version": "0.0.1",
+  "description": "Debounce XHR requests dynamically based on server response time.",
+  "main": "elastic-debounce.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdeshpande/elastic-debounce.git"
+  },
+  "keywords": [
+    "javascript",
+    "debounce"
+  ],
+  "author": "Rohan Deshpande <rohan.deshpande@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdeshpande/elastic-debounce/issues"
+  },
+  "homepage": "https://github.com/rdeshpande/elastic-debounce#readme"
+}
